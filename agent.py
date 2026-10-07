@@ -2,7 +2,7 @@ import os
 from google.adk.agents.llm_agent import Agent
 
 # Set your API key in the environment (or pass it directly depending on your ADK version setup)
-os.environ["GOOGLE_API_KEY"] = "AQ.Ab8RN6IbOIJYRpWA7HJNUVejhW5LL2_re3bbhOS_VzmCzHnhBg"
+os.environ["GOOGLE_API_KEY"] = "google api key"
 
 # Mock tool implementation for fetching local attractions or travel details
 def get_destination_info(destination: str, interests: str) -> dict:
